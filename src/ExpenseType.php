@@ -2,9 +2,9 @@
 
 namespace ExpenseReport;
 
-abstract class ExpenseType
+enum ExpenseType: int
 {
-    const DINNER = 1;
-    const BREAKFAST = 2;
-    const CAR_RENTAL = 3;
+    case Dinner = 1;
+    case Breakfast = 2;
+    case CAR_RENTAL = 3;
 }

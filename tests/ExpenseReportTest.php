@@ -14,12 +14,12 @@ class ExpenseReportTest extends TestCase
     public function characteristic_test(): void
     {
         $expensesData = [
-            new Expense(ExpenseType::BREAKFAST, 100),
-            new Expense(ExpenseType::DINNER, 2000),
-            new Expense(ExpenseType::DINNER, 2000),
+            new Expense(ExpenseType::Breakfast, 100),
+            new Expense(ExpenseType::Dinner, 2000),
+            new Expense(ExpenseType::Dinner, 2000),
             new Expense(ExpenseType::CAR_RENTAL, 2000),
-            new Expense(ExpenseType::DINNER, 6000),
-            new Expense(ExpenseType::BREAKFAST, 700),
+            new Expense(ExpenseType::Dinner, 6000),
+            new Expense(ExpenseType::Breakfast, 700),
         ];
 
         ob_start();
